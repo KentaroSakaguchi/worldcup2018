@@ -4,8 +4,10 @@ block append vars
   -
     title       = '2018 ワールドカップ スケジュール'
     description = '2018 ワールドカップ ロシア大会のスケジュールを検索できます。是非ご活用ください。'
+    pageScript = false
 
 block content
+  .content
   main.main
     .main__inner
 
@@ -13,22 +15,8 @@ block content
       section.section.section--full
         .section__inner
           h1.title 2018 FIFA World Cup Russia
-          #js-title
           #js-loader.loader-wrapper
             .loader-wrapper__loader-box
               i.loader
-          #js-nav.menu
-          #js-search
-            
-          //- #js-mount
-
-
-      //- form
-      //-   div
-      //-     label(for='number1') Multiply number 1: 
-      //-     input#number1(type='text', value='0')
-      //-   div
-      //-     label(for='number2') Multiply number 2: 
-      //-     input#number2(type='text', value='0')
-      //- p.result Result: 0
+          #js-app
 

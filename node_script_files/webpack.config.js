@@ -107,12 +107,12 @@ const webpackConfig = [
  * ファイル名を取得してentryに追加していく
  */
 
-const pagesJs = glob.sync(`${config.devDir}/scripts/pages/*.js`);　// 個別ページ用のjsfiles
-
+const pagesJs = glob.sync(`${config.devDir}/scripts/pages/*`);　// 個別ページ用のjsfiles
 // 個別ページ用のjsファイル名を取得
 for (data of pagesJs) {
   const pageJsFile = data.replace(`${config.devDir}/scripts/pages/`, '');
-  const filename = pageJsFile.replace(/\.(js)$/, '');
+  const filename = pageJsFile.replace(/\.(js|jsx)$/, '');
+  console.log(filename);
   webpackConfig[0].entry[filename] = data;
 }
 

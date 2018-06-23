@@ -2,48 +2,39 @@
  * @file 全ページ 共通で使用するjsファイル
  *
  */
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+
 
 // import picturefill from 'picturefill'; // pictureタグのpolyfill(ie11など用)
 
 // import ExAnzu from '../modules/Anzu';
 // import AnzuTsEx from '../modules/AnzuTs';
+import Spred from '../modules/Spred';
+Spred.AnzuSpred();
 
-import Title from '../component/Title';
-import Nav from '../component/Nav';
-
-import Search from '../component/Search';
+import Nav from '../component/nav/Nav';
+import Search from '../component/search/Search';
+import Team from '../component/team/Team';
 
 // import Mount from '../component/Mount';
+class App extends Component {
 
-const title = document.getElementById('js-title');
+  render() {
+    return(
+      <div className="app">
+        <Nav />
+        <Search />
+        <Team />
+      </div>
+    )
+  }
 
-ReactDOM.render(
-  <Title />, title
-);
-
-const nav = document.getElementById('js-nav');
-
-ReactDOM.render(
-  <Nav />, nav
-);
-
-const searchElement = document.getElementById('js-search');
-
-if ([searchElement][0] !== null) {
-  ReactDOM.render(
-    <Search />, searchElement
-  );
 }
 
-const mount = document.getElementById('js-mount');
-
-if ([mount][0] !== null) {
-  ReactDOM.render(
-    <Mount />, mount
-  );
-}
+ReactDOM.render(
+  <App />, document.getElementById('js-app')
+);
 
 // ExAnzu.static();
 
