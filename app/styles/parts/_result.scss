@@ -1,0 +1,62 @@
+/*
+@styleguide
+
+@title parts/result
+
+<div>
+  <p class="result">タイトル</p>
+</div>
+*/
+
+.result {
+  width: 100%;
+  display: block;
+  padding: 0 16px;
+  margin-top: 32px;
+  position: relative;
+  height: 216px;
+  overflow-y: auto;
+  color: $color_white;
+
+  @mixin display_pc {
+    height: 300px;
+  }
+
+  &__text {
+    width: 100%;
+  }
+
+  &__text-word {
+    padding-left: 8px;
+  }
+
+  &__block {
+    margin-top: 24px;
+  }
+
+  &__block-text {
+    padding-left: 8px;
+
+    & + & {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid $color_gold;
+    }
+  }
+
+  &__block-list {
+    display: flex;
+
+    & + & {
+      margin-top: 8px;
+    }
+  }
+
+  &__block-head {
+    flex-basis: 30%;
+  }
+
+  &__block-data {
+    flex-basis: 70%;
+  }
+}

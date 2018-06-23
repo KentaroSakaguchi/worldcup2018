@@ -1,0 +1,54 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - element/section]
+//
+// ========================================================================== */
+
+/*
+@styleguide
+
+@title element/section
+
+<div>
+  <div class="section__inner">
+    <h2 class="title">element/section</h2>
+    <p class="section__text">sp: 左右20px 上下60px / pc: 左右20px 上下90pxのpaddingがつきます。</p>
+  </div>
+</div>
+*/
+
+.section {
+  width: 100%;
+
+  &__inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @mixin display_pc {
+      max-width: calc(1120px + 40px);
+      margin: auto;
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+  }
+
+  &__text {
+    font-size: $fs_ms;
+    line-height: 26px;
+  }
+
+  &--full {
+    height: 100vh;
+
+    .section__inner {
+      position: fixed;
+      width: 100%;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+}

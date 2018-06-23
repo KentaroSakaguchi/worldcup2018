@@ -1,0 +1,73 @@
+/*
+@styleguide
+
+@title parts/result
+
+<div>
+  <p class="menu">タイトル</p>
+</div>
+*/
+
+.menu {
+  color: $color_white;
+  font-family: world, sans-serif;
+  font-size: $fs_mm;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 48px;
+
+  @mixin display_pc {
+    width: 50%;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-left: 20px;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    color: $color_white;
+    transition: $transition_middle;
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 2px;
+      width: 15px;
+      background-color: $color_red;
+      display: block;
+      z-index: 2;
+      position: absolute;
+      left: -20px;
+      top: -3px;
+      transform: translateY(0);
+      margin: auto;
+      transition: $transition_middle;
+    }
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 2px;
+      background-color: $color_gold;
+      display: block;
+      position: absolute;
+      left: -14px;
+      margin: auto;
+      transition: $transition_middle;
+    }
+
+    &:hover {
+      &::after {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

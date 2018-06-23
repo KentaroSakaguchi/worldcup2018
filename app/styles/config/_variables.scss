@@ -1,0 +1,40 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - 変数]
+//
+// ========================================================================== */
+
+/* フォントファミリー */
+$font_style_basic: 'Hiragino Sans', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+$font_style_minchou: 'Yu Mincho', 'YuMincho', serif;
+
+/* break point */
+$dev_sp: 768px;
+$dev_pc: 769px;
+
+/* font-size */
+$fs_sx: 1rem;
+$fs_sss: 1.1rem;
+$fs_ss: 1.2rem;
+$fs_mss: 1.3rem;
+$fs_ms: 1.4rem;
+$fs_mm: 1.6rem;
+$fs_mx: 1.8rem;
+$fs_xs: 2.0rem;
+$fs_xm: 2.2rem;
+$fs_xx: 2.4rem;
+$fs_bg: 2.8rem;
+
+/* メインビジュアルのフォントサイズ */
+$fs_bg_mv_sp: 3.2rem;
+$fs_bg_mv_pc: 5.4rem;
+
+/* z-index */
+$z-index_header: 10;
+$z-index_header_nav-list: 11;
+
+/* transition */
+$transition_base: all 0.12s ease-out 0s;
+$transition_middle: all 0.3s ease-out 0s;
+$transition_slow: all .5s ease;
+

@@ -1,0 +1,60 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - parts/button]
+//
+// ========================================================================== */
+
+/*
+@styleguide
+
+@title parts/button
+
+<div style="padding: 10px; background-color: #ececec;">
+  <button class="button button--white">
+    <span class="button__text">通常サイズ:白いボタン</span>
+  </button>
+  <button class="button button--blue" style="margin-top: 10px;">
+    <span class="button__text">通常サイズ:青いボタン</span>
+  </button>
+  <button class="button button--white button--middle" style="margin-top: 10px;">
+    <span class="button__text">sp中サイズ:白いボタン</span>
+  </button>
+  <button class="button button--blue button--middle" style="margin-top: 10px;">
+    <span class="button__text">sp中サイズ:青いボタン</span>
+  </button>
+</div>
+*/
+
+.button {
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  min-width: 240px;
+  width: 240px;
+  background-color: $color_white;
+
+  @mixin display_pc {
+    padding: 14px;
+  }
+
+  &--middle {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  &--white {
+    background-color: $color_white;
+    color: $color_mint;
+  }
+
+  &--blue {
+    background-color: $color_mint;
+    color: $color_white;
+  }
+
+  &__text {
+    font-size: 14px;
+    margin: auto;
+  }
+}

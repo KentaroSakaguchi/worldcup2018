@@ -1,0 +1,31 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - parts/br]
+//
+// ========================================================================== */
+
+/*
+@styleguide
+
+@title parts/br
+
+<div>
+  <p>.br-sp-only</p>
+  <p>spのみ改行をする<br class="br-sp-only">場合のクラス</p>
+
+  <p>.br-pc-only</p>
+  <p>pcのみ改行をする<br class="br-pc-only">場合のクラス</p>
+</div>
+*/
+
+.br-sp-only {
+  @mixin display_pc {
+    display: none;
+  }
+}
+
+.br-pc-only {
+  @mixin display_sp {
+    display: none;
+  }
+}

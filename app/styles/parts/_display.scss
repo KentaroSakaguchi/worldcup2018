@@ -1,0 +1,31 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - parts/display]
+//
+// ========================================================================== */
+
+/*
+@styleguide
+
+@title parts/display
+
+<div>
+  <p>.display-sp-only</p>
+  <p>spのみ表示するクラス</p>
+
+  <p>.display-sp-only</p>
+  <p>pcのみ表示するクラス</p>
+</div>
+*/
+
+.display-sp-only {
+  @mixin display_pc {
+    display: none;
+  }
+}
+
+.display-pc-only {
+  @mixin display_sp {
+    display: none;
+  }
+}

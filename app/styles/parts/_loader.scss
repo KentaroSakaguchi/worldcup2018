@@ -1,0 +1,55 @@
+/*
+@styleguide
+
+@title parts/result
+
+<div>
+  <i class="loader"></>
+</div>
+*/
+
+.loader {
+  border-top: 5px solid rgba($color_gold, 0.2);
+  border-right: 5px solid rgba($color_gold, 0.2);
+  border-bottom: 5px solid rgba($color_gold, 0.2);
+  border-left: 5px solid $color_gold;
+  animation: loading 1s infinite linear;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  display: block;
+
+  &::after {
+    content: '';
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper {
+  position: relative;
+  opacity: 1;
+  transition: $transition_middle;
+
+  &__loader-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+  }
+}

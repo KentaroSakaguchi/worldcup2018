@@ -1,0 +1,64 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - デフォルトのスタイル]
+//
+// ========================================================================== */
+
+@font-face {
+  font-family: 'world';
+  src: url('../fonts/Dusha_-_FIFA_World_Cup_2018.ttf');
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font_style_basic;
+  letter-spacing: 0.1rem;
+  color: $color_black;
+  font-size: $fs_ms;
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul, dl, dt, dd {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*:not(hr):not(legend) {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}

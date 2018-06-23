@@ -1,0 +1,26 @@
+{
+    "disallowAttributeTemplateString": true,
+    "disallowBlockExpansion": true,
+    "disallowClassLiteralsBeforeAttributes": true,
+    "disallowClassLiteralsBeforeIdLiterals": true,
+    "disallowDuplicateAttributes": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowSpacesInsideAttributeBrackets": true,
+    "validateAttributeQuoteMarks": "'",
+    "validateAttributeSeparator": ", ",
+    "validateIndentation": 2,
+    "requireLowerCaseAttributes": true,
+    "requireSpaceAfterCodeOperator": true,
+    "requireIdLiteralsBeforeAttributes": true,
+    "requireSpecificAttributes": [
+        {
+            "input": [
+                "name",
+                "type"
+            ],
+            "img": [
+                "alt"
+            ]
+        }
+    ]
+}

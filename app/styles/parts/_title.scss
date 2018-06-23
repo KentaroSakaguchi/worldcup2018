@@ -1,0 +1,23 @@
+/*
+@styleguide
+
+@title parts/title
+
+<div>
+  <h2 class="title">タイトル</header>
+</div>
+*/
+
+.title {
+  font-size: $fs_xx;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  margin-bottom: 4px;
+  color: $color_white;
+  font-family: world, sans-serif;
+
+  @mixin display_pc {
+    font-size: $fs_bg;
+  }
+}

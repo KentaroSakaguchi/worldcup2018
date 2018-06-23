@@ -1,0 +1,26 @@
+/*
+@styleguide
+
+@title parts/input
+
+<div>
+  <label class="input">
+    <input class="input__input" type="text" placeholder="検索">
+  </label>
+</div>
+*/
+
+.input {
+  width: 100%;
+  border: 1px solid $color_gold;
+  background-color: $color_white;
+  border-radius: 6px;
+  display: block;
+
+  &__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 16px;
+  }
+}

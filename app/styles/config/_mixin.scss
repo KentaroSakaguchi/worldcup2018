@@ -1,0 +1,26 @@
+/* ==========================================================================//
+//
+// [パーツ情報 - mixin]
+//
+// ========================================================================== */
+
+/* sp表示用 メディアクエリ(max-width: 768px) */
+@define-mixin display_sp {
+  @media(max-width: $dev_sp) {
+    @mixin-content
+  }
+}
+
+/* pc表示用 メディアクエリ (min-width: 769px)*/
+@define-mixin display_pc {
+  @media(min-width: $dev_pc) {
+    @mixin-content
+  }
+}
+
+/* テキスト非表示 */
+@define-mixin hide_text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 120%;
+}
