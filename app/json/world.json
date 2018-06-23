@@ -1,659 +1,660 @@
 {
- "football" : [
-    {
-      "date": "6月14日（木）",
-      "time": ["24:00"], 
-      "game": ["ロシア vs サウジアラビア"],
-      "sub": ["ロシアrussiaろしあ vs サウジアラビアさうじあらびあsaudi arabia"],
-      "tv": ["NHK／NHK BS"],
-      "group": ["Group A"],
-      "result": ["5 - 0"]
-    },
-    {
-      "date": "6月15日（金）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "エジプト vs ウルグアイ",
-        "モロッコ vs イラン",
-        "ポルトガル vs スペイン"
-      ],
-      "sub": [
-        "エジプトegyptえじぷと vs ウルグアイuruguayうるぐあい",
-        "モロッコmoroccoもろっこ vs イランいらんiran",
-        "ポルトガルぽるとがるportugal vs スペインすぺいんspain"
-      ],
-      "tv": [
-        "フジテレビ／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "group": [
-        "Group B",
-        "Group B",
-        "Group C"
-      ],
-      "result": [
-        "0 - 1",
-        "0 - 1",
-        "3 - 3"
-      ]
-    },
-    {
-      "date": "6月16日（土）",
-      "time": ["19:00", "22:00", "25:00", "28:00"],
-      "game": [
-        "フランス vs オーストラリア",
-        "アルゼンチン vs アイスランド",
-        "ペルー vs デンマーク",
-        "クロアチア vs ナイジェリア"
-      ],
-      "sub": [
-        "フランスfranceふらんす vs オーストラリアaustraliaおーすとらりあ",
-        "アルゼンチンあるぜんちんargentina vs アイスランドあいすらんどiceland",
-        "ペルーperuぺるー vs デンマークでんまーくdenmark",
-        "クロアチアcroatiaくろあちあ vs ナイジェリアnigeriaないじぇりあ"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "NHK／NHK BS",
-        "フジテレビ／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group C",
-        "Group D",
-        "Group C",
-        "Group D"
-      ],
-      "result": [
-        "2 - 1",
-        "1 - 1",
-        "0 - 1",
-        "2 - 0"
-      ]
-    },
-    {
-      "date": "6月17日（日）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "コスタリカ vs セルビア",
-        "ドイツ vs メキシコ",
-        "ブラジル vs スイス"
-      ],
-      "sub": [
-        "コスタリカcosta ricaこすたりか vs セルビアserbiaせるびあ",
-        "ドイツgermanyどいつ vs メキシコめきしこmexico",
-        "ブラジルぶらじるbrazil vs スイスswitzerlandすいす"
-      ],
-      "tv": [
-        "フジテレビ／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "group": [
-        "Group E",
-        "Group F",
-        "Group E"
-      ],
-      "result": [
-        "0 - 1",
-        "0 - 1",
-        "1 - 1"
-      ]
-    },
-    {
-      "date": "6月18日（月）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "スウェーデン vs 韓国",
-        "ベルギー vs パナマ",
-        "チュニジア vs イングランド"
-      ],
-      "sub": [
-        "スウェーデンすうぇーでんsweden vs 韓国かんこくカンコクkorea",
-        "ベルギーべるぎーbelgium vs パナマぱなまpanama",
-        "チュニジアtunisiaちゅにじあ vs イングランドいんぐらんどengland"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "フジテレビ／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "group": [
-        "Group F",
-        "Group G",
-        "Group G"
-      ],
-      "result": [
-        "1 - 0",
-        "3 - 0",
-        "1 - 2"
-      ]
-    },
-    {
-      "date": "6月19日（火）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "コロンビア vs 日本",
-        "ポーランド vs セネガル",
-        "ロシア vs エジプト"
-      ],
-      "sub": [
-        "コロンビアcolumbiaころんびあ vs 日本にほんニホンjapannニッポンにっぽん",
-        "ポーランドpolandぽーらんど vs セネガルsenegalせねがる",
-        "ロシアrussiaろしあ vs エジプトegyptえじぷと"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group H",
-        "Group H",
-        "Group A"
-      ],
-      "result": [
-        "1 - 2",
-        "1 - 2",
-        "3 - 1"
-      ]
-    },
-    {
-      "date": "6月20日（水）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "ポルトガル vs モロッコ",
-        "ウルグアイ vs サウジアラビア",
-        "イラン vs スペイン"
-      ],
-      "sub": [
-        "ポルトガルぽるとがるportugal vs モロッコmoroccoもろっこ",
-        "ウルグアイuruguayうるぐあい vs サウジアラビアさうじあらびあsaudi arabia",
-        "イランいらんiran vs スペインすぺいんspain"
-      ],
-      "tv": [
-        "テレビ朝日／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group B",
-        "Group A",
-        "Group B"
-      ],
-      "result": [
-        "1 - 0",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月21日（木）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "デンマーク vs オーストラリア",
-        "フランス vs ペルー",
-        "アルゼンチン vs クロアチア"
-      ],
-      "sub": [
-        "デンマークでんまーくdenmark vs オーストラリアaustraliaおーすとらりあ",
-        "フランスfranceふらんす vs ペルーperuぺるー",
-        "アルゼンチンあるぜんちんargentina vs クロアチアcroatiaくろあちあ"
-      ],
-      "tv": [
-        "フジテレビ／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group C",
-        "Group C",
-        "Group D"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月22日（金）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "ブラジル vs コスタリカ",
-        "ナイジェリア vs アイスランド",
-        "セルビア vs スイス"
-      ],
-      "sub": [
-        "ブラジルぶらじるbrazil vs コスタリカcosta ricaこすたりか",
-        "ナイジェリアnigeriaないじぇりあ vs アイスランドあいすらんどiceland",
-        "セルビアserbiaせるびあ vs スイスswitzerlandすいす"
-      ],
-      "tv": [
-        "テレビ朝日／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "group": [
-        "Group E",
-        "Group D",
-        "Group E"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月23日（土）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "ベルギー vs チュニジア",
-        "韓国 vs メキシコ",
-        "ドイツ vs スウェーデン"
-      ],
-      "sub": [
-        "ベルギーべるぎーbelgium vs チュニジアtunisiaちゅにじあ",
-        "韓国かんこくカンコクkorea vs メキシコめきしこmexico",
-        "ドイツgermanyどいつ vs スウェーデンすうぇーでんsweden"
-      ],
-      "tv": [
-        "フジテレビ／NHK BS",
-        "テレビ朝日／NHK BS",
-        "TBS／NHK BS"
-      ],
-      "group": [
-        "Group G",
-        "Group F",
-        "Group F"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月24日（日）",
-      "time": ["21:00", "24:00", "27:00"],
-      "game": [
-        "イングランド vs パナマ",
-        "日本 vs セネガル",
-        "ポーランド vs コロンビア"
-      ],
-      "sub": [
-        "イングランドいんぐらんどengland vs パナマぱなまpanama",
-        "日本にほんニホンjapanニッポンにっぽん vs セネガルsenegalせねがる",
-        "ポーランドpolandぽーらんど vs コロンビアcolumbiaころんびあ"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS",
-        "TBS／NHK BS"
-      ],
-      "group": [
-        "Group G",
-        "Group H",
-        "Group H"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月25日（月）",
-      "time": ["23:00", "23:00", "27:00", "27:00"],
-      "game": [
-        "ウルグアイ vs ロシア",
-        "サウジアラビア vs エジプト",
-        "イラン vs ポルトガル",
-        "スペイン vs モロッコ"
-      ],
-      "sub": [
-        "ウルグアイuruguayうるぐあい vs ロシアrussiaろしあ",
-        "サウジアラビアさうじあらびあsaudi arabia vs エジプトegyptえじぷと",
-        "イランいらんiran vs ポルトガルぽるとがるportugal",
-        "スペインすぺいんspain vs モロッコmoroccoもろっこ"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group A",
-        "Group A",
-        "Group B",
-        "Group B"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月26日（火）",
-      "time": ["23:00", "23:00", "27:00", "27:00"],
-      "game": [
-        "デンマーク vs フランス",
-        "オーストラリア vs ペルー",
-        "ナイジェリア vs アルゼンチン",
-        "アイスランド vs クロアチア"
-      ],
-      "sub": [
-        "デンマークでんまーくdenmark vs フランスfranceふらんす",
-        "オーストラリアaustraliaおーすとらりあ vs ペルーperuぺるー",
-        "ナイジェリアnigeriaないじぇりあ vs アルゼンチンあるぜんちんargentina",
-        "アイスランドあいすらんどiceland vs クロアチアcroatiaくろあちあ"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS"
-      ],
-      "group": [
-        "Group C",
-        "Group C",
-        "Group D",
-        "Group D"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月27日（水）",
-      "time": ["23:00", "23:00", "27:00", "27:00"],
-      "game": [
-        "メキシコ vs スウェーデン",
-        "韓国 vs ドイツ",
-        "セルビア vs ブラジル",
-        "スイス vs コスタリカ"
-      ],
-      "sub": [
-        "メキシコめきしこmexico vs スウェーデンすうぇーでんsweden",
-        "韓国かんこくカンコクkorea vs ドイツgermanyどいつ",
-        "セルビアserbiaせるびあ vs ブラジルぶらじるbrazil",
-        "スイスswitzerlandすいす vs コスタリカcosta ricaこすたりか"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "NHK／NHK BS",
-        "NHK／NHK BS",
-        "フジテレビ／NHK BS"
-      ],
-      "group": [
-        "Group F",
-        "Group F",
-        "Group E",
-        "Group E"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "date": "6月28日（木）",
-      "time": ["23:00", "23:00", "27:00", "27:00"],
-      "game": [
-        "日本 vs ポーランド",
-        "セネガル vs コロンビア",
-        "パナマ vs チュニジア",
-        "イングランド vs ベルギー"
-      ],
-      "sub": [
-        "日本にほんニホンjapanニッポンにっぽん vs ポーランドpolandぽーらんど",
-        "セネガルsenegalせねがる vs コロンビアcolumbiaころんびあ",
-        "パナマぱなまpanama vs チュニジアtunisiaちゅにじあ",
-        "イングランドいんぐらんどengland vs ベルギーべるぎーbelgium"
-      ],
-      "tv": [
-        "フジテレビ／NHK BS",
-        "NHK／NHK BS",
-        "日本テレビ／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "group": [
-        "Group H",
-        "Group H",
-        "Group G",
-        "Group G"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前",
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝トーナメント1回戦",
-      "date": "6月30日（土）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "C組1位 vs D組2位",
-        "A組1位 vs B組2位"
-      ],
-      "sub": [
-        "C組1位 vs D組2位",
-        "A組1位 vs B組2位"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝トーナメント1回戦",
-      "date": "7月1日（日）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "B組1位 vs A組2位",
-        "D組1位 vs C組2位"
-      ],
-      "sub": [
-        "B組1位 vs A組2位",
-        "D組1位 vs C組2位"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "テレビ朝日／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝トーナメント1回戦",
-      "date": "7月2日（月）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "E組1位 vs F組2位",
-        "G組1位 vs H組2位"
-      ],
-      "sub": [
-        "E組1位 vs F組2位",
-        "G組1位 vs H組2位"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝トーナメント1回戦",
-      "date": "7月2日（月）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "E組1位 vs F組2位",
-        "G組1位 vs H組2位"
-      ],
-      "sub": [
-        "E組1位 vs F組2位",
-        "G組1位 vs H組2位"
-      ],
-      "tv": [
-        "NHK／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝トーナメント1回戦",
-      "date": "7月3日（火）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "F組1位 vs E組2位",
-        "H組1位 vs G組2位"
-      ],
-      "sub": [
-        "F組1位 vs E組2位",
-        "H組1位 vs G組2位"
-      ],
-      "tv": [
-        "テレビ朝日／NHK BS",
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "準々決勝",
-      "date": "7月6日（金）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "未定 vs 未定",
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定",
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "TBS／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "準々決勝",
-      "date": "7月7日（土）",
-      "time": ["23:00", "27:00"],
-      "game": [
-        "未定 vs 未定",
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定",
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "TBS／NHK BS",
-        "TBS／NHK BS"
-      ],
-      "result": [
-        "試合開始前",
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "準決勝",
-      "date": "7月11日（水）",
-      "time": ["27:00"],
-      "game": [
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "テレビ朝日／NHK BS"
-      ],
-      "result": [
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "準決勝",
-      "date": "7月12日（木）",
-      "time": ["27:00"],
-      "game": [
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "3位決定戦",
-      "date": "7月14日（土）",
-      "time": ["23:00"],
-      "game": [
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "テレビ朝日／NHK BS"
-      ],
-      "result": [
-        "試合開始前"
-      ]
-    },
-    {
-      "status": "決勝",
-      "date": "7月15日（日）",
-      "time": ["24:00"],
-      "game": [
-        "未定 vs 未定"
-      ],
-      "sub": [
-        "未定 vs 未定"
-      ],
-      "tv": [
-        "NHK／NHK BS"
-      ],
-      "result": [
-        "試合開始前"
-      ]
-    }
-  ]
-}
+  "football" : [
+     {
+       "date": "6月14日（木）",
+       "time": ["24:00"], 
+       "game": ["ロシア vs サウジアラビア"],
+       "sub": ["ロシアrussiaろしあ vs サウジアラビアさうじあらびあsaudi arabia"],
+       "tv": ["NHK／NHK BS"],
+       "group": ["Group A"],
+       "result": ["5 - 0"]
+     },
+     {
+       "date": "6月15日（金）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "エジプト vs ウルグアイ",
+         "モロッコ vs イラン",
+         "ポルトガル vs スペイン"
+       ],
+       "sub": [
+         "エジプトegyptえじぷと vs ウルグアイuruguayうるぐあい",
+         "モロッコmoroccoもろっこ vs イランいらんiran",
+         "ポルトガルぽるとがるportugal vs スペインすぺいんspain"
+       ],
+       "tv": [
+         "フジテレビ／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "group": [
+         "Group B",
+         "Group B",
+         "Group C"
+       ],
+       "result": [
+         "0 - 1",
+         "0 - 1",
+         "3 - 3"
+       ]
+     },
+     {
+       "date": "6月16日（土）",
+       "time": ["19:00", "22:00", "25:00", "28:00"],
+       "game": [
+         "フランス vs オーストラリア",
+         "アルゼンチン vs アイスランド",
+         "ペルー vs デンマーク",
+         "クロアチア vs ナイジェリア"
+       ],
+       "sub": [
+         "フランスfranceふらんす vs オーストラリアaustraliaおーすとらりあ",
+         "アルゼンチンあるぜんちんargentina vs アイスランドあいすらんどiceland",
+         "ペルーperuぺるー vs デンマークでんまーくdenmark",
+         "クロアチアcroatiaくろあちあ vs ナイジェリアnigeriaないじぇりあ"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "NHK／NHK BS",
+         "フジテレビ／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group C",
+         "Group D",
+         "Group C",
+         "Group D"
+       ],
+       "result": [
+         "2 - 1",
+         "1 - 1",
+         "0 - 1",
+         "2 - 0"
+       ]
+     },
+     {
+       "date": "6月17日（日）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "コスタリカ vs セルビア",
+         "ドイツ vs メキシコ",
+         "ブラジル vs スイス"
+       ],
+       "sub": [
+         "コスタリカcosta ricaこすたりか vs セルビアserbiaせるびあ",
+         "ドイツgermanyどいつ vs メキシコめきしこmexico",
+         "ブラジルぶらじるbrazil vs スイスswitzerlandすいす"
+       ],
+       "tv": [
+         "フジテレビ／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "group": [
+         "Group E",
+         "Group F",
+         "Group E"
+       ],
+       "result": [
+         "0 - 1",
+         "0 - 1",
+         "1 - 1"
+       ]
+     },
+     {
+       "date": "6月18日（月）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "スウェーデン vs 韓国",
+         "ベルギー vs パナマ",
+         "チュニジア vs イングランド"
+       ],
+       "sub": [
+         "スウェーデンすうぇーでんsweden vs 韓国かんこくカンコクkorea",
+         "ベルギーべるぎーbelgium vs パナマぱなまpanama",
+         "チュニジアtunisiaちゅにじあ vs イングランドいんぐらんどengland"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "フジテレビ／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "group": [
+         "Group F",
+         "Group G",
+         "Group G"
+       ],
+       "result": [
+         "1 - 0",
+         "3 - 0",
+         "1 - 2"
+       ]
+     },
+     {
+       "date": "6月19日（火）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "コロンビア vs 日本",
+         "ポーランド vs セネガル",
+         "ロシア vs エジプト"
+       ],
+       "sub": [
+         "コロンビアcolumbiaころんびあ vs 日本にほんニホンjapannニッポンにっぽん",
+         "ポーランドpolandぽーらんど vs セネガルsenegalせねがる",
+         "ロシアrussiaろしあ vs エジプトegyptえじぷと"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group H",
+         "Group H",
+         "Group A"
+       ],
+       "result": [
+         "1 - 2",
+         "1 - 2",
+         "3 - 1"
+       ]
+     },
+     {
+       "date": "6月20日（水）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "ポルトガル vs モロッコ",
+         "ウルグアイ vs サウジアラビア",
+         "イラン vs スペイン"
+       ],
+       "sub": [
+         "ポルトガルぽるとがるportugal vs モロッコmoroccoもろっこ",
+         "ウルグアイuruguayうるぐあい vs サウジアラビアさうじあらびあsaudi arabia",
+         "イランいらんiran vs スペインすぺいんspain"
+       ],
+       "tv": [
+         "テレビ朝日／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group B",
+         "Group A",
+         "Group B"
+       ],
+       "result": [
+         "1 - 0",
+         "1 - 0",
+         "0 - 1"
+       ]
+     },
+     {
+       "date": "6月21日（木）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "デンマーク vs オーストラリア",
+         "フランス vs ペルー",
+         "アルゼンチン vs クロアチア"
+       ],
+       "sub": [
+         "デンマークでんまーくdenmark vs オーストラリアaustraliaおーすとらりあ",
+         "フランスfranceふらんす vs ペルーperuぺるー",
+         "アルゼンチンあるぜんちんargentina vs クロアチアcroatiaくろあちあ"
+       ],
+       "tv": [
+         "フジテレビ／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group C",
+         "Group C",
+         "Group D"
+       ],
+       "result": [
+         "1 - 1",
+         "1 - 0",
+         "0 - 3"
+       ]
+     },
+     {
+       "date": "6月22日（金）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "ブラジル vs コスタリカ",
+         "ナイジェリア vs アイスランド",
+         "セルビア vs スイス"
+       ],
+       "sub": [
+         "ブラジルぶらじるbrazil vs コスタリカcosta ricaこすたりか",
+         "ナイジェリアnigeriaないじぇりあ vs アイスランドあいすらんどiceland",
+         "セルビアserbiaせるびあ vs スイスswitzerlandすいす"
+       ],
+       "tv": [
+         "テレビ朝日／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "group": [
+         "Group E",
+         "Group D",
+         "Group E"
+       ],
+       "result": [
+         "2 - 0",
+         "2 - 0",
+         "1 - 2"
+       ]
+     },
+     {
+       "date": "6月23日（土）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "ベルギー vs チュニジア",
+         "韓国 vs メキシコ",
+         "ドイツ vs スウェーデン"
+       ],
+       "sub": [
+         "ベルギーべるぎーbelgium vs チュニジアtunisiaちゅにじあ",
+         "韓国かんこくカンコクkorea vs メキシコめきしこmexico",
+         "ドイツgermanyどいつ vs スウェーデンすうぇーでんsweden"
+       ],
+       "tv": [
+         "フジテレビ／NHK BS",
+         "テレビ朝日／NHK BS",
+         "TBS／NHK BS"
+       ],
+       "group": [
+         "Group G",
+         "Group F",
+         "Group F"
+       ],
+       "result": [
+         "5 - 2",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "date": "6月24日（日）",
+       "time": ["21:00", "24:00", "27:00"],
+       "game": [
+         "イングランド vs パナマ",
+         "日本 vs セネガル",
+         "ポーランド vs コロンビア"
+       ],
+       "sub": [
+         "イングランドいんぐらんどengland vs パナマぱなまpanama",
+         "日本にほんニホンjapanニッポンにっぽん vs セネガルsenegalせねがる",
+         "ポーランドpolandぽーらんど vs コロンビアcolumbiaころんびあ"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS",
+         "TBS／NHK BS"
+       ],
+       "group": [
+         "Group G",
+         "Group H",
+         "Group H"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "date": "6月25日（月）",
+       "time": ["23:00", "23:00", "27:00", "27:00"],
+       "game": [
+         "ウルグアイ vs ロシア",
+         "サウジアラビア vs エジプト",
+         "イラン vs ポルトガル",
+         "スペイン vs モロッコ"
+       ],
+       "sub": [
+         "ウルグアイuruguayうるぐあい vs ロシアrussiaろしあ",
+         "サウジアラビアさうじあらびあsaudi arabia vs エジプトegyptえじぷと",
+         "イランいらんiran vs ポルトガルぽるとがるportugal",
+         "スペインすぺいんspain vs モロッコmoroccoもろっこ"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group A",
+         "Group A",
+         "Group B",
+         "Group B"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "date": "6月26日（火）",
+       "time": ["23:00", "23:00", "27:00", "27:00"],
+       "game": [
+         "デンマーク vs フランス",
+         "オーストラリア vs ペルー",
+         "ナイジェリア vs アルゼンチン",
+         "アイスランド vs クロアチア"
+       ],
+       "sub": [
+         "デンマークでんまーくdenmark vs フランスfranceふらんす",
+         "オーストラリアaustraliaおーすとらりあ vs ペルーperuぺるー",
+         "ナイジェリアnigeriaないじぇりあ vs アルゼンチンあるぜんちんargentina",
+         "アイスランドあいすらんどiceland vs クロアチアcroatiaくろあちあ"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS"
+       ],
+       "group": [
+         "Group C",
+         "Group C",
+         "Group D",
+         "Group D"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "date": "6月27日（水）",
+       "time": ["23:00", "23:00", "27:00", "27:00"],
+       "game": [
+         "メキシコ vs スウェーデン",
+         "韓国 vs ドイツ",
+         "セルビア vs ブラジル",
+         "スイス vs コスタリカ"
+       ],
+       "sub": [
+         "メキシコめきしこmexico vs スウェーデンすうぇーでんsweden",
+         "韓国かんこくカンコクkorea vs ドイツgermanyどいつ",
+         "セルビアserbiaせるびあ vs ブラジルぶらじるbrazil",
+         "スイスswitzerlandすいす vs コスタリカcosta ricaこすたりか"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "NHK／NHK BS",
+         "NHK／NHK BS",
+         "フジテレビ／NHK BS"
+       ],
+       "group": [
+         "Group F",
+         "Group F",
+         "Group E",
+         "Group E"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "date": "6月28日（木）",
+       "time": ["23:00", "23:00", "27:00", "27:00"],
+       "game": [
+         "日本 vs ポーランド",
+         "セネガル vs コロンビア",
+         "パナマ vs チュニジア",
+         "イングランド vs ベルギー"
+       ],
+       "sub": [
+         "日本にほんニホンjapanニッポンにっぽん vs ポーランドpolandぽーらんど",
+         "セネガルsenegalせねがる vs コロンビアcolumbiaころんびあ",
+         "パナマぱなまpanama vs チュニジアtunisiaちゅにじあ",
+         "イングランドいんぐらんどengland vs ベルギーべるぎーbelgium"
+       ],
+       "tv": [
+         "フジテレビ／NHK BS",
+         "NHK／NHK BS",
+         "日本テレビ／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "group": [
+         "Group H",
+         "Group H",
+         "Group G",
+         "Group G"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前",
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝トーナメント1回戦",
+       "date": "6月30日（土）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "C組1位 vs D組2位",
+         "A組1位 vs B組2位"
+       ],
+       "sub": [
+         "C組1位 vs D組2位",
+         "A組1位 vs B組2位"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝トーナメント1回戦",
+       "date": "7月1日（日）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "B組1位 vs A組2位",
+         "D組1位 vs C組2位"
+       ],
+       "sub": [
+         "B組1位 vs A組2位",
+         "D組1位 vs C組2位"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "テレビ朝日／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝トーナメント1回戦",
+       "date": "7月2日（月）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "E組1位 vs F組2位",
+         "G組1位 vs H組2位"
+       ],
+       "sub": [
+         "E組1位 vs F組2位",
+         "G組1位 vs H組2位"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝トーナメント1回戦",
+       "date": "7月2日（月）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "E組1位 vs F組2位",
+         "G組1位 vs H組2位"
+       ],
+       "sub": [
+         "E組1位 vs F組2位",
+         "G組1位 vs H組2位"
+       ],
+       "tv": [
+         "NHK／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝トーナメント1回戦",
+       "date": "7月3日（火）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "F組1位 vs E組2位",
+         "H組1位 vs G組2位"
+       ],
+       "sub": [
+         "F組1位 vs E組2位",
+         "H組1位 vs G組2位"
+       ],
+       "tv": [
+         "テレビ朝日／NHK BS",
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "準々決勝",
+       "date": "7月6日（金）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "未定 vs 未定",
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定",
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "TBS／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "準々決勝",
+       "date": "7月7日（土）",
+       "time": ["23:00", "27:00"],
+       "game": [
+         "未定 vs 未定",
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定",
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "TBS／NHK BS",
+         "TBS／NHK BS"
+       ],
+       "result": [
+         "試合開始前",
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "準決勝",
+       "date": "7月11日（水）",
+       "time": ["27:00"],
+       "game": [
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "テレビ朝日／NHK BS"
+       ],
+       "result": [
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "準決勝",
+       "date": "7月12日（木）",
+       "time": ["27:00"],
+       "game": [
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "3位決定戦",
+       "date": "7月14日（土）",
+       "time": ["23:00"],
+       "game": [
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "テレビ朝日／NHK BS"
+       ],
+       "result": [
+         "試合開始前"
+       ]
+     },
+     {
+       "status": "決勝",
+       "date": "7月15日（日）",
+       "time": ["24:00"],
+       "game": [
+         "未定 vs 未定"
+       ],
+       "sub": [
+         "未定 vs 未定"
+       ],
+       "tv": [
+         "NHK／NHK BS"
+       ],
+       "result": [
+         "試合開始前"
+       ]
+     }
+   ]
+ }
+ 
