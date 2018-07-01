@@ -23,7 +23,7 @@
   &__inner {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 60px;
 
     @mixin display_pc {
@@ -41,14 +41,5 @@
 
   &--full {
     height: 100vh;
-
-    .section__inner {
-      position: fixed;
-      width: 100%;
-      top: 50%;
-      left: 0;
-      right: 0;
-      transform: translateY(-50%);
-    }
   }
 }
