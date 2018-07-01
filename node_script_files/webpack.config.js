@@ -28,7 +28,7 @@ const webpackConfig = [
 
     // 読み込み元
     entry: {
-      common: `${config.devDir}/scripts/common/common.js`
+      common: `${config.devDir}/scripts/common/common.jsx`
     },
 
     // 吐き出し先
