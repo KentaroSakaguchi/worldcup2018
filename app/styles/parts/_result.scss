@@ -13,12 +13,12 @@
   display: block;
   margin-top: 32px;
   position: relative;
-  height: 216px;
+  height: calc(100vh - (120px + 32px + 121px + 50px + 32px));
   overflow-y: auto;
   color: $color_white;
 
   @mixin display_pc {
-    height: 300px;
+    height: calc(100vh - (180px + 32px + 121px + 50px + 32px));
   }
 
   &__text {
