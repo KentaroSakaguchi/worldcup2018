@@ -39,6 +39,3 @@ jspm_packages
 out
 build
 dist
-app
-  scripts
-    pages

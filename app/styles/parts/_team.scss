@@ -1,0 +1,67 @@
+/*
+@styleguide
+
+@title parts/team
+
+<div>
+  <p class="team">タイトル</p>
+</div>
+*/
+
+.team {
+  width: 100%;
+  display: block;
+  margin-top: 32px;
+  position: relative;
+  color: $color_white;
+
+  &__list {
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100vh - (120px + 32px + 116px));
+
+    @mixin display_pc {
+      height: calc(100vh - (180px + 32px + 116px));
+    }
+  }
+
+  &__item {
+    & + & {
+      border-top: 1px solid $color_gold;
+    }
+
+    &:nth-child(odd) {
+      .team__link {
+        &::before {
+          background-color: $color_red;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      .team__link {
+        &::before {
+          background-color: $color_gold;
+        }
+      }
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: $color_white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 16px;
+      height: 2px;
+      margin-right: 16px;
+    }
+  }
+}

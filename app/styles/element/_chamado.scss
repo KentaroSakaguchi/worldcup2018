@@ -1,0 +1,38 @@
+.chamado {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  &__inner {
+    position: absolute;
+    max-width: 350px;
+    width: 50%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+
+    @mixin display_pc {
+      width: 30%;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  &__link-box {
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  &__link {
+    margin: auto;
+    color: #e60011;
+    line-height: 1.6;
+  }
+}

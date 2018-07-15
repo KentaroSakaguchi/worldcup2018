@@ -1,0 +1,115 @@
+/*
+@styleguide
+
+@title parts/result
+
+<div>
+  <p class="menu">タイトル</p>
+</div>
+*/
+
+.menber {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, $color_blue 50%, $color_light_blue 100%);
+  z-index: 10;
+
+  &__button {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+    @mixin display_pc {
+      top: 40px;
+      right: 40px;
+    }
+
+    &::before,
+    &::after {
+      content: '';
+      width: 24px;
+      height: 1px;
+      background-color: $color_white;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+
+  &__item {
+    padding: 16px;
+    border-bottom: 1px solid $color_gold;
+  }
+
+  &__list {
+    height: 100%;
+    overflow-y: auto;
+    padding: 24px;
+    transform: translateY(0);
+    animation-name: slide_up;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+
+    @mixin display_pc {
+      padding: 40px;
+    }
+  }
+
+  &__data-list {
+    display: block;
+    position: relative;
+  }
+
+  &__data {
+    width: 100%;
+
+    & + & {
+      margin-top: 16px;
+    }
+
+    &--name {
+      font-size: $fs_mm;
+    }
+  }
+
+  &__background {
+    font-family: world, sans-serif;
+    font-size: 100px;
+    color: $color_white;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+  }
+
+  &__item-rank {
+    padding: 16px;
+    border-bottom: 1px solid $color_gold;
+    display: flex;
+    align-items: center;
+  }
+
+  &__rank {
+    margin-left: auto;
+  }
+}
