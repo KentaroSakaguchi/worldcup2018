@@ -26,9 +26,9 @@
     "stylelint:build": "cross-env NODE_ENV=production node ./node_script_files/stylelint.js",
     "imagemin:build": "cross-env NODE_ENV=production node ./node_script_files/imagemin.js",
     "copylib:build": "cross-env NODE_ENV=production node ./node_script_files/copy.js",
-    "start": "concurrently \"npm run cleandir\" \"npm run copylib\" \"npm run puglist\" \"npm run stylelint:watch\" \"npm run html:watch\" \"npm run js:watch\" \"npm run styles:watch\" \"npm run imagemin:watch\" \"npm run server\" ",
-    "dist": "npm run stylelint && npm run puglist && npm run cleandir && npm run copylib && npm run html && npm run imagemin && npm run js && npm run styles",
-    "build": "npm run stylelint:build && npm run puglist:build && npm run copylib:build && npm run html:build && npm run imagemin:build && npm run js:build && npm run styles:build"
+    "start": "concurrently \"npm run cleandir\" \"npm run copylib\" \"npm run stylelint:watch\" \"npm run html:watch\" \"npm run js:watch\" \"npm run styles:watch\" \"npm run imagemin:watch\" \"npm run server\" ",
+    "dist": "npm run stylelint && npm run cleandir && npm run copylib && npm run html && npm run imagemin && npm run js && npm run styles",
+    "build": "npm run stylelint:build && npm run copylib:build && npm run html:build && npm run imagemin:build && npm run js:build && npm run styles:build"
   },
   "author": "designfika <dedededesignfika@gmail.com>",
   "license": "MIT",

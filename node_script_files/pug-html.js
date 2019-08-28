@@ -32,7 +32,7 @@ const outputPass = path.join(__dirname, '..', passName);
 
 
 // pug files
-const pugFiles = glob.sync(`${config.devDir}/views/!(_|index)*.pug`);
+const pugFiles = glob.sync(`${config.devDir}/views/*.pug`);
 
 /**
  * pugファイルのコンパイル
@@ -98,7 +98,7 @@ const watchPug = () => {
     if (_path.indexOf('/_') > 0) {
 
       // パーツファイルの更新
-      changeFiles = glob.sync(`${config.devDir}/views/!(_|index)*.pug`); // ページファイル全てを取得しpugCompile()へ
+      changeFiles = glob.sync(`${config.devDir}/views/*.pug`); // ページファイル全てを取得しpugCompile()へ
 
       // パーツファイルのエラーチェック
       try {

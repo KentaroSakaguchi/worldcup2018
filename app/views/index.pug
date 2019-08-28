@@ -1,88 +1,22 @@
-doctype html
-html
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title 一覧
-    style.
-      html {
-        width: 100%;
-        font-size: 62.5%;
-      }
-      ul {
-        padding: 0;
-      }
-      p {
-        margin: 4px;
-      }
-      a:visited {
-        color: currentColor
-      }
-      .parts-menu__list:visited {
-        color: #000;
-      }
-      .parts-menu__list {
-        list-style-type: none;
-        color: #000;
-      }
-      .parts-menu__list:nth-child(odd) {
-        background-color: #2C76C5;
-        color: #fff;
-      }
-      .parts {
-        margin-top: 16px;
-        margin-bottom: 8px;
-      }
-      .parts__text {
-        text-align: center;
-        font-size: 16px;
-        font-weight: bold;
-      }
+extends _layout/_default
 
-      .parts__list {
-        padding: 16px;
-      }
+block append vars
+  -
+    title       = '2018 ワールドカップ スケジュール'
+    description = '2018 ワールドカップ ロシア大会のスケジュールを検索できます。是非ご活用ください。'
+    pageScript = false
 
-      .parts-menu {
-        width: 90%;
-        margin: auto;
-      }
+block content
+  .content
+  main.main
+    .main__inner
 
-      .parts-menu__link {
-        display: inline-block;
-        padding: 8px 12px;
-        width: 100%;
-        text-decoration: none;
-        box-sizing: border-box;
-      }
+      //- セクション
+      section.section.section--full
+        .section__inner
+          h1.title 2018 FIFA World Cup Russia
+          #js-loader.loader-wrapper
+            .loader-wrapper__loader-box
+              i.loader
+          #js-app
 
-      .parts-menu__date {
-        text-align: right;
-        font-size: 1rem;
-      }
-
-      .parts-menu__title {
-        font-size: 1.4rem;
-      }
-
-      .parts-menu__files {
-        font-size: 1.2rem;
-      }
-
-  body
-    .parts-menu
-      ul.parts-menu__menu
-        each file, index in files
-          li.parts-menu__list
-            a(href=file).parts-menu__link
-              p.parts-menu__title=titles[index]
-              p.parts-menu__files=file
-              p.parts-menu__date=`更新日:${dates[index].year}年${dates[index].month}月${dates[index].date}日`
-
-        //- styleguide
-        if mode === 'develop'
-          li.parts-menu__list
-            a(href='./styleguide.html').parts-menu__link
-              p.parts-menu__title スタイルガイド
-              p.parts-menu__files styleguide.html
