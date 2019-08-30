@@ -14,17 +14,21 @@ const eslintrc = path.join(__dirname, '.eslintrc');
 
 // 出力パス
 let outputPass = '';
+let sorceMap = '';
+
 if (config.envFlg) {
-  outputPass = 'dist'
+  outputPass = 'dist';
+  sorceMap = 'inline-source-map';
 } else {
-  outputPass = 'build'
+  outputPass = 'build';
+  sorceMap = '';
 }
 
 const webpackConfig = [
 
   {
     mode: process.env.NODE_ENV,
-    devtool: 'inline-source-map',
+    devtool: sorceMap,
 
     // 読み込み元
     entry: {
