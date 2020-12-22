@@ -59,7 +59,7 @@
     "imagemin-pngquant": "^5.1.0",
     "imagemin-svgo": "^6.0.0",
     "jsdoc": "^3.5.5",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "nodemon": "^1.17.4",
     "path": "^0.12.7",
     "postcss": "^6.0.22",
